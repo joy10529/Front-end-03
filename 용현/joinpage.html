@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>joinpage</title>
+    <script
+      src="https://kit.fontawesome.com/32e11bc5c5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form action="">
+      <center>
+        <div class="HEADER">
+          <button><i class="fa-brands fa-apple"></i></button> <br />
+          <button>스토어</button> <br />
+          <button>MAC</button> <br />
+          <button>iPAD</button> <br />
+          <button>iPHONE</button> <br />
+          <button>WATCH</button> <br />
+          <button>AIRPODS</button> <br />
+          <button>악세사리</button> <br />
+          <button>고객지원</button> <br />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button> <br />
+        </div>
+
+        <div class="section">
+          <h1>APPLE ID</h1>
+          <div>로그인</div>
+          <br />
+          <div>Apple ID 생성</div>
+          <br />
+          <div>FAQ</div>
+          <br />
+        </div>
+
+        <div class="footer">
+          <h1>Apple ID 생성</h1>
+          <div>하나의 Apple ID로 모든 Apple 서비스를 이용할 수 있습니다.</div>
+          <label for="FN"></label>
+          <input id="FN" type="text" placeholder="성" required /> <br />
+          <label for="LN"></label>
+          <input id="LN" type="text" placeholder="이름" required /> <br />
+          <label for="nation"></label>
+          <select name="nationality" id="nation" required>
+            <option value="Korea">대한민국 +82</option>
+            <option value="USA">미국 +1</option>
+            <option value="JAPAN">일본 +81</option>
+            <option value="CHINA">중국 +86</option>
+          </select>
+          <br />
+          <label for="TEL"></label
+          ><input id="TEL" type="tel" placeholder="전화번호" required /> <br />
+          <label for="D"></label
+          ><input id="D" type="date" placeholder="생년월일" required /> <br />
+          <label for="E"></label
+          ><input id="E" type="email" placeholder="name@example.com" required />
+          <br />
+          <label for="p"></label>
+          <input
+            id="P"
+            type="password"
+            placeholder="Password"
+            minlength="8"
+            maxlength="16"
+            pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,16}$"
+            required
+          />
+          <br />
+          <span>번호 확인 방법</span>
+          <input type="radio" name="check" id="1" required />
+          <label for="1">문자메세지</label>
+
+          <input type="radio" name="check" id="2" required />
+          <label for="2">음성메세지</label>
+          <br />
+          <input type="checkbox" id="c-admit" required />
+          <label for="c-admit">광고수신 동의</label>
+          <br />
+          <input type="checkbox" id="i-admit" required />
+          <label for="i-admit">개인정보 수집 동의</label>
+          <br />
+          <input type="submit" value="가입하기" /> <br />
+          <br />
+          <a href="mainpage.html">이전 페이지</a>
+        </div>
+      </center>
+    </form>
+  </body>
+</html>
