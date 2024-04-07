@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+
+    <form action="">
+      <label for="FN">First Name</label>
+      <input id="FN" type="text" placeholder="First Name" required /> <br />
+
+      <label for="LN">Last Name</label>
+      <input id="LN" type="text" placeholder="Last Name" required /> <br />
+
+      <label for="e">e-mail</label>
+      <input id="e" type="email" placeholder="e-mail" required /> <br />
+
+      <label for="UN">UserName</label>
+      <input id="UN" type="text" placeholder="User Name" required /> <br />
+
+      <label for="P">Password</label>
+      <input
+        id="P"
+        type="password"
+        placeholder="Password"
+        minlength="10"
+        required
+      />
+      <br />
+
+      <label for="BD">Birth Date</label>
+      <input id="BD" type="date" placeholder="Birth Date" required /> <br />
+
+      <label for="emo">How happy are you?</label>
+      <input
+        id="emo"
+        type="range"
+        min="0"
+        max="10"
+        value="5"
+        step="1"
+        list="tickmarks"
+        required
+      />
+      <br />
+      <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="1"></option>
+        <option value="2"></option>
+        <option value="3"></option>
+        <option value="4"></option>
+        <option value="5"></option>
+        <option value="6"></option>
+        <option value="7"></option>
+        <option value="8"></option>
+        <option value="9"></option>
+        <option value="10"></option>
+      </datalist>
+
+      <label for="FC">What is your favorite color</label>
+      <input id="FC" type="color" /> <br />
+
+      <input type="submit" value="Create Account" />
+    </form>
+  </body>
+</html>
